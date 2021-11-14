@@ -14,10 +14,10 @@ function App() {
         <Menu />
         <div className="page">
           <Routes>
-            <Route path="/" exact element={<HomePage />} />
-            <Route path="/drift" element={<DriftPage />} />
-            <Route path="/timeattack" element={<TimeAttackPage />} />
-            <Route path="/forza" element={<ForzaPage />} />
+            <Route path="/ra_9.1_menu" exact element={<HomePage />} />
+            <Route path="/ra_9.1_menu/drift" element={<DriftPage />} />
+            <Route path="/ra_9.1_menu/timeattack" element={<TimeAttackPage />} />
+            <Route path="/ra_9.1_menu/forza" element={<ForzaPage />} />
           </Routes>
         </div>
       </div>
