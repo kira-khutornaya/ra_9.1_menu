@@ -9,15 +9,15 @@ import ForzaPage from './components/ForzaPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ra_9.1_menu">
       <div>
         <Menu />
         <div className="page">
           <Routes>
-            <Route path="/ra_9.1_menu" exact element={<HomePage />} />
-            <Route path="/ra_9.1_menu/drift" element={<DriftPage />} />
-            <Route path="/ra_9.1_menu/timeattack" element={<TimeAttackPage />} />
-            <Route path="/ra_9.1_menu/forza" element={<ForzaPage />} />
+            <Route path="/" exact element={<HomePage />} />
+            <Route path="/drift" element={<DriftPage />} />
+            <Route path="/timeattack" element={<TimeAttackPage />} />
+            <Route path="/forza" element={<ForzaPage />} />
           </Routes>
         </div>
       </div>
